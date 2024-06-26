@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "esnext", // specify module code generation
+        "target": "ES2022", // specify ECMAScript target version
+        "moduleResolution": "node",
+        "lib": [
+            "es2022",
+        ],
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS",
+        },
+    },
+}
